@@ -1,0 +1,42 @@
+.logo {
+  width: 180px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-left: 30px;
+  padding-top: 11px;
+}
+.register-btn {
+  background-color: #3f90fc;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 35px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.admin-btn {
+  background-color: #434141;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 35px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.navbar-light .navbar-toggler {
+  color: royalblue;
+  border-color: transparent;
+  font-size: 30px;
+}
+.navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+@media screen and (max-width: 985px) {
+  .navbar-light .navbar-nav .nav-link,
+  .register-btn,
+  .admin-btn {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}

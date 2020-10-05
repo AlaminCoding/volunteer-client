@@ -1,0 +1,29 @@
+.profile-section {
+  margin-top: 70px;
+}
+.user-service-box {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 25px;
+}
+.user-service-box img {
+  height: 200px;
+}
+.service-details {
+  padding-left: 20px;
+}
+.service-details h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.service-details h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.user-service-box button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

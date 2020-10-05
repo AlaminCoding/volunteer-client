@@ -1,0 +1,46 @@
+.login-form {
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #ababab;
+  margin-top: 70px;
+  padding: 120px 0px;
+}
+
+.login-form h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.login-form p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.google-btn {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 100px;
+  color: crimson;
+  border: 1px solid #c7c7c7;
+  border-radius: 20px;
+  position: relative;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.google-btn .google-icon {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  font-size: 22px;
+  color: crimson;
+}
+.google-btn:hover {
+  color: white;
+  background-color: crimson;
+  outline: none;
+  border: 1px solid crimson;
+}
+.google-btn:hover .google-icon {
+  color: white;
+}

@@ -1,0 +1,67 @@
+.admin-section {
+  background-color: white;
+  height: 97vh;
+}
+.side-bar {
+  padding: 20px;
+}
+.admin-img {
+  width: 100%;
+}
+.side-bar p {
+  color: blue;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.side-bar small {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.volunteer-section {
+  padding: 20px 50px 0px 50px;
+}
+.volunteer-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 30px;
+}
+.volunteer-list {
+  width: 100%;
+  height: 90vh;
+  background-color: #ebf9ea;
+  padding: 20px;
+}
+.table-section {
+  height: 90%;
+  width: 100%;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.table-section table {
+  width: 90%;
+}
+table th {
+  text-align: left;
+  background-color: #e5e5e5;
+  padding: 20px 10px;
+  color: gray;
+}
+table td {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 10px 10px;
+}
+table td button {
+  background-color: red;
+  color: white;
+  border: none;
+}

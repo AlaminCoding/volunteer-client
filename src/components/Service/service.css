@@ -1,0 +1,44 @@
+.service-box {
+  position: relative;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.service-box img {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.service-box:hover img {
+  opacity: 0.5;
+}
+
+.service-box h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #ffbd3e;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding-top: 15px;
+  height: 70px;
+  border-radius: 0px 00px 10px 10px;
+}
+.test:nth-child(1) h2 {
+  background-color: #ffbd3e;
+}
+.test:nth-child(7n + 0) h2 {
+  background-color: #ffbd3e;
+}
+.test:nth-child(2n + 0) h2 {
+  background-color: #ff7044;
+}
+.test:nth-child(3n + 0) h2 {
+  background-color: #3f90fc;
+}
+.test:nth-child(5n + 0) h2 {
+  background-color: #421fcf;
+}

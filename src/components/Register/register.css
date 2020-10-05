@@ -1,0 +1,42 @@
+.register-form {
+  background-color: #ffffff;
+  border: 1px solid #ababab;
+  margin-top: 50px;
+  padding: 30px;
+}
+.register-form h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.register-form input {
+  width: 100%;
+  display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #c5c5c5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+}
+.register-form input:focus {
+  outline: none;
+  border-bottom: 2px solid black;
+}
+::-webkit-input-placeholder {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+::-moz-placeholder {
+  color: black;
+}
+.reg-btn {
+  background-color: #3f90fc;
+  color: white;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}

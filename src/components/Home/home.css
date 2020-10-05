@@ -1,0 +1,32 @@
+.banner {
+  height: 450px;
+  width: 100%;
+  background-image: url("../../banner.png");
+  background-color: rgb(255, 255, 255, 0.9);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: top;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.search-form {
+  margin-top: 60px;
+}
+.search-form h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+.search-box {
+  width: 70%;
+  margin: 0 auto;
+}
+.search-box input {
+  height: 50px;
+}
+.services {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
